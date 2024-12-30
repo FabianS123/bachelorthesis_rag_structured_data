@@ -5,17 +5,10 @@ Dieses Repository enthält den Code und die Dokumentation zur Bachelorarbeit "Ei
 Die Forschungsfrage dieser Arbeit lautet: „Wie lässt sich ein Retrieval-Augmented Generation System auf strukturierte Daten aus einer relationalen Datenbank anwenden und wie beeinflussen unterschiedliche Kundenfragen die Qualität des Retrievals und der generierten Antworten?“ <br><br>
 
 ### Ordnerstruktur
-code/
-Enthält den gesamten Quellcode für die Implementierung des RAG-Systems, einschließlich Datenbankanbindung (connect.py), Embedding-Erstellung, sowie Funktionen zur Fragengenerierung, Prompt-Bildung und Interaktion mit dem LLM.
+#### code
+Enthält den gesamten Quellcode für die Implementierung des RAG-Systems, einschließlich Datenbankanbindung (connect.py). 
+Desweiteren ist der Code von den Berechnungen der Ergebnisse und zur Generierung der Abbildungen zu sehen.
 
-data/
-Enthält Beispieldaten und die vorbereiteten JSON- oder CSV-Dateien, die während der Implementierung und Tests genutzt wurden.
+#### data
+Enthält die eingebundenen Daten aus der relationalen Datenbank, in Form von der Produkttabelle und die JSON-Datei, die während der Implementierung des RAG-Systems erstellte wurde.  
 
-docs/
-Beinhaltet die wissenschaftliche Dokumentation, darunter die vollständige Bachelorarbeit als PDF, sowie alle relevanten Anhänge.
-
-results/
-Hier sind Ergebnisse der Tests und Evaluationen des Systems, wie beispielhafte Fragestellungen, Antworten und Performance-Metriken, abgelegt.
-
-excel/
-Enthält die Excel-Dateien mit Fragen und zugehörigen Metadaten, die für die Tests und das Training genutzt wurden.
