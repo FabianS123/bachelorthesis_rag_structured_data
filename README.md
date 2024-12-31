@@ -10,5 +10,8 @@ Enthält den gesamten Quellcode für die Implementierung des RAG-Systems, einsch
 Desweiteren ist der Code von den Berechnungen der Ergebnisse und zur Generierung der Abbildungen zu sehen.
 
 #### data
-Enthält die eingebundenen Daten aus der relationalen Datenbank, in Form von der Produkttabelle und die JSON-Datei, die während der Implementierung des RAG-Systems erstellte wurde.  
+Enthält die eingebundenen Daten aus der relationalen Datenbank, in Form von der Produkttabelle.
 
+#### excel
+Enthält drei Exel-Datein mit den Durchläufen 1-3 die stichprobenartig zeigen, dass das RAG immer die gleichen Chunks findet.
+Außerdem sind in der Ergebnisse.xlxs Datei die erstellten Fragen, RAG-Antworten und die Bewertung enthalten.
